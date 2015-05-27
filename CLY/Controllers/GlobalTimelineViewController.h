@@ -1,5 +1,4 @@
-//
-//  ViewController.h
+// GlobalTimelineViewController.h
 //  CLY
 //
 //  Created by chenliangyu on 14/12/9.
@@ -7,9 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+@interface GlobalTimelineViewController : UITableViewController
+{
+    UIView *myView;
+}
 @end
-
